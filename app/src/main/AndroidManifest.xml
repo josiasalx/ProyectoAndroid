@@ -12,10 +12,8 @@
         <activity android:name=".SplashScreen"></activity>
 
         <activity android:name=".Daytime1" />
-        <activity android:name=".GCena" />
         <activity android:name=".GAlmuerzo" />
         <activity android:name=".GDesayuno" />
-        <activity android:name=".Cena" />
         <activity android:name=".Almuerzo" />
         <activity android:name=".Desayuno" />
         <activity android:name=".Daytime" />
