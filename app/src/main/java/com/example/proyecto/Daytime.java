@@ -32,14 +32,7 @@ Button desayuno, almuerzo, cena, atrass;
             }
         });
 
-        cena=findViewById(R.id.cena);
-        cena.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Daytime.this,Cena.class));
-                finish();
-            }
-        });
+
         atrass=findViewById(R.id.atrass);
         atrass.setOnClickListener(new View.OnClickListener() {
             @Override

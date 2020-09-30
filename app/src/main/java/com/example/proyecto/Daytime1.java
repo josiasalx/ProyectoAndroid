@@ -32,14 +32,6 @@ Button gdesayuno, galmuerzo, gcena, gatrass;
             }
         });
 
-        gcena=findViewById(R.id.gcena);
-        gcena.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(Daytime1.this,GCena.class));
-                finish();
-            }
-        });
 
         gatrass=findViewById(R.id.gatrass);
         gatrass.setOnClickListener(new View.OnClickListener() {
